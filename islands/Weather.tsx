@@ -32,6 +32,9 @@ const Weather = () => {
       .then((response) => response.json())  // La respuesta se convierte a JSON
       .then((data) => {   
         weather.value = data; 
+      })
+      .catch((error) => { // Si hay un error, se muestra en la consola
+        console.error('Error:', error);
       });
   }, [location.value]); // Se ejecuta el hook de efecto siempre que cambie el valor de location.value
 

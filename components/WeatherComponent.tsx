@@ -26,12 +26,11 @@ const WeatherComponent: FunctionComponent<Props> = ({ city, cityCoordinates, loc
       <>
         <h1 class="mainTitle">Weather Application</h1>
           <div class="weather">
-            
             <div class="location">
                 <p>Ciudad: </p>
                 <select value={city.value} onInput={(e) => city.value = e.currentTarget.value}>
-                  {Object.keys(cityCoordinates).map(city => (
-                      <option value={city}>{city}</option>
+                  {Object.keys(cityCoordinates).map(cityName => (
+                    <option key={cityName} value={cityName}>{cityName}</option>
                   ))}
                 </select>
             </div>
