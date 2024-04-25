@@ -1,0 +1,33 @@
+import { WeatherCodes } from './types.ts';
+
+// Códigos de tiempo meteorológico de la API
+export const weatherCodes: WeatherCodes = {
+    0: "Cielo despejado",
+    1: "Principalmente despejado",
+    2: "Parcialmente nublado",
+    3: "Nublado",
+    45: "Niebla",
+    48: "Cencellada depositante",
+    51: "Llovizna: Intensidad ligera",
+    53: "Llovizna: Intensidad moderada",
+    55: "Llovizna: Intensidad densa",
+    56: "Llovizna helada: Intensidad ligera",
+    57: "Llovizna helada: Intensidad densa",
+    61: "Lluvia: Intensidad leve",
+    63: "Lluvia: Intensidad moderada",
+    65: "Lluvia: Intensidad fuerte",
+    66: "Lluvia helada: Intensidad leve",
+    67: "Lluvia helada: Intensidad fuerte",
+    71: "Nevada: Intensidad leve",
+    73: "Nevada: Intensidad moderada",
+    75: "Nevada: Intensidad fuerte",
+    77: "Granizo",
+    80: "Chubascos: Intensidad leve",
+    81: "Chubascos: Intensidad moderada",
+    82: "Chubascos: Intensidad violenta",
+    85: "Chubascos de nieve: Intensidad leve",
+    86: "Chubascos de nieve: Intensidad fuerte",
+    95: "Tormenta: Luz o moderada",
+    96: "Tormenta con granizo leve",
+    99: "Tormenta con granizo fuerte",
+};

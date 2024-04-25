@@ -1,5 +1,6 @@
 import { Cities } from './types.ts';
 
+// Coordenadas de las ciudades introducidas
 export const cityCoordinates: Cities = {
     "Madrid": { lat: 40.4165, lon: -3.7026 },
     "Porto": { lat: 41.1496, lon: -8.611 },
@@ -25,4 +26,14 @@ export const cityCoordinates: Cities = {
     "Reykjavik": { lat: 64.1265, lon: -21.8174 },
     "New York": { lat: 40.7128, lon: -74.0060 },
     "Los Angeles": { lat: 34.0522, lon: -118.2437 },
+    "Toronto": { lat: 43.6511, lon: -79.3832 },
+    "Mexico City": { lat: 19.4326, lon: -99.1332 },
+    "Buenos Aires": { lat: -34.6037, lon: -58.3816 },
+    "Santiago": { lat: -33.4489, lon: -70.6693 },
+    "Sao Paulo": { lat: -23.5505, lon: -46.6333 },
+    "Lima": { lat: -12.0464, lon: -77.0428 },
+    "Cape Town": { lat: -33.9249, lon: 18.4241 },
+    "Nairobi": { lat: -1.2921, lon: 36.8219 },
+    "Cairo": { lat: 30.0444, lon: 31.2357 },
+    "Mumbai": { lat: 19.0760, lon: 72.8777 },
 };
