@@ -1,0 +1,28 @@
+import { Cities } from './types.ts';
+
+export const cityCoordinates: Cities = {
+    "Madrid": { lat: 40.4165, lon: -3.7026 },
+    "Porto": { lat: 41.1496, lon: -8.611 },
+    "Barcelona": { lat: 41.3851, lon: 2.1734 },
+    "Paris": { lat: 48.8566, lon: 2.3522 },
+    "Berlin": { lat: 52.5200, lon: 13.4050 },
+    "London": { lat: 51.5074, lon: -0.1278 },
+    "Rome": { lat: 41.9028, lon: 12.4964 },
+    "Amsterdam": { lat: 52.3676, lon: 4.9041 },
+    "Lisbon": { lat: 38.7223, lon: -9.1393 },
+    "Prague": { lat: 50.0755, lon: 14.4378 },
+    "Vienna": { lat: 48.2082, lon: 16.3738 },
+    "Budapest": { lat: 47.4979, lon: 19.0402 },
+    "Warsaw": { lat: 52.2297, lon: 21.0122 },
+    "Athens": { lat: 37.9838, lon: 23.7275 },
+    "Istanbul": { lat: 41.0082, lon: 28.9784 },
+    "Moscow": { lat: 55.7558, lon: 37.6176 },
+    "Stockholm": { lat: 59.3293, lon: 18.0686 },
+    "Oslo": { lat: 59.9139, lon: 10.7522 },
+    "Helsinki": { lat: 60.1695, lon: 24.9354 },
+    "Copenhagen": { lat: 55.6761, lon: 12.5683 },
+    "Dublin": { lat: 53.3498, lon: -6.2603 },
+    "Reykjavik": { lat: 64.1265, lon: -21.8174 },
+    "New York": { lat: 40.7128, lon: -74.0060 },
+    "Los Angeles": { lat: 34.0522, lon: -118.2437 },
+};
